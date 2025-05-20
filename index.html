@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="estilos/estilos_cal.css">
+</head>
+<body>
+    <Table class="caja flex">
+        <tr>
+            <th colspan="4  " class="pantalla"><input type="text" readonly></th>        
+        </tr>
+        <tr>
+            <td><button type="button" class="borrar">C</button></td>
+            <td><button type="button" class="operador">/</button></td>
+            <td><button type="button" class="operador">*</button></td>
+            <td scope="col" rowspan="2"><button type="button" class="operador">-</button></td>
+
+        </tr>
+         <tr>
+            <td><button type="button" class="numero uno" >1</button></td>
+            <td><button type="button" class="numero dos">2</button></td>
+            <td><button type="button" class="numero tres">3</button></td>
+            <td></td> 
+            
+        </tr>   
+        <tr>
+            <td><button type="button" class="numero cuatro">4</button></td>
+            <td><button type="button" class="numero cinco">5</button></td>
+            <td><button type="button" class="numero seis">6</button></td>
+            <td scope="col" rowspan="2"><button type="button" class="operador">+</button></td>
+
+        </tr>
+        <tr>
+            <td><button type="button" class="numero siete">7</button></td>
+            <td><button type="button" class="numero ocho">8</button></td>
+            <td><button type="button" class="numero nueve">9</button></td>
+        </tr>
+       <tr>
+            <td scope="col" colspan="2"><button type="button" class="numero cero">0</button></td>
+            <td scope="col" colspan="2"><button type="button" class="igual">=</button></td>
+        </tr>
+    </Table>
+
+    <H1 class="caja inline-block">Calculadora</H1>
+    <br>
+    <div class="barra-footer inline-block">
+        &copy; Derechos Reservados - 2025
+        <p>Design - <a class="credit" href="https://alfgomla.github.io/alfgomla/" target="_blank">Alfgomla</a></p>
+    </div>
+        
+    <script src="js/calcu02.js"></script>
+    
+</body>
+
+</html>

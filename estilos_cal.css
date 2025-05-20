@@ -1,0 +1,75 @@
+.caja {
+    background-color: lightblue;
+    border: 1px solid blue;
+    margin: 5px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.inline-block {
+            display: inline-block;
+            width: 300px;
+            height: 40px;
+            text-align: center;
+        }
+
+table {
+    width: 300px;
+    height: 300px; /* Ancho y alto de la tabla */
+
+}
+input{
+    padding: 5px; /* Espacio dentro de los inputs */
+    margin: 5px; /* Espacio entre inputs */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px; /* Tamaño de la fuente */
+    cursor: pointer;
+}
+
+.borrar{
+    width: 100%;
+    font-size: 20px; /* Tamaño de la fuente */
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #000000; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.numero{
+    width: 100%;
+    font-size: 20px; /* Tamaño de la fuente */
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: 1px solid #000000; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+.operador{
+    width: 100%;
+    font-size: 20px; /* Tamaño de la fuente */
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 0, 0);
+    border: 1px solid #000000; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.barra-footer{        
+            text-align: center;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 30px;
+            padding-bottom: 10px;
+}
+
